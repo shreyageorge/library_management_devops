@@ -1,0 +1,7 @@
+student(alice).
+student(bob).
+student(charlie).
+
+department(alice, cse).
+department(bob, ece).
+department(charlie, cse).
