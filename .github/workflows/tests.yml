@@ -1,4 +1,5 @@
-name: Library Management CI
+
+name: Library Management DevOps Pipeline
 
 on:
   push:
@@ -17,6 +18,5 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Run unit tests
-        working-directory: Library_Practicum_10
-        run: python -m unittest -v test_library
+      - name: Run Library Tests
+        run: python -m unittest -v test_library.py
